@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './connection.css'
 import {useAuth} from '../../Contexts/AuthContext'
-import logo from '../../assets/images/TunnelCraft.png'
+import logo from '../../assets/images/logo.png'
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom';
-import  PasswordChecklist from 'react-password-checklist'
+import  PasswordChecklist from 'react-password-checklist';
 import axios from 'axios'
 import {  apiRegister, apiLogin } from '../../api/api';
 

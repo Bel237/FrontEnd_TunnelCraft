@@ -11,10 +11,9 @@ const landing_page = () => {
     
     <section className='div1'>
         <div>
-          <h1> Tunnel Craft : Votre dev helper</h1>
-          <p>Simplifiez l'intégration harmonieuse des application
-          tierces  dans <br/> vos propres applications 
-          avec notre plateforme experte <br/>  en tunnels.</p>
+          <h1> Travel Well : Votre voyage planner</h1>
+          <p>Simplifiez vous la vie avec notre plateforme <br/>
+          experte en planfication de voyages inter urbain</p>
 
           <a href='/connection' className='start-btn'>Commencer</a>
         </div>
