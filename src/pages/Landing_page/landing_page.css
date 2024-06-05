@@ -2,7 +2,7 @@
     display: grid;
     min-height: 100vh;
     grid-template-rows: 1fr 6.5fr;
-    background-image: url("../../assets/images/font3.png");
+    background-image: url("../../assets/images/landing_background.jpg");
     background-size: cover;
     font-size: 1.5vm;
     padding: 0 50px;
@@ -34,19 +34,13 @@
     padding: 12px  28px;
     border: none;
     border-radius: 2px;
-    background-color: #8404a0;
-    font-weight: 600;
-   
+    background-color: #3E1886;
 
 }
 
-.start-btn {
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .start-btn:hover {
-    transform: translateY(-0.125rem); 
-  }
+.div1 div a:hover {
+    background-color: #532e97;
+}
 
 
 

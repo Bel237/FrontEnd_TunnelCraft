@@ -1,19 +1,19 @@
 import React from 'react'
 import './navbar.css'
-import logox from '../../assets/images/logo.png'
+import logo from '../../assets/images/TunnelCraft_white.png'
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
       <nav>
-        <img src={logox} alt="logo"></img>
+        <img src={logo}></img>
             <ul>
-                <li><a href="#Header" className='link'>Accueil</a></li>
-                <li><a href="#Footer" className='link'>A propos</a></li>
+                <li><a href="#Footer" className='link'>À propos</a></li>
+                <li><a href="#Footer" className='link'>Aide</a></li>
                 <li><a href="#Footer" className='link '>Contact</a></li>
-                <li><a href="#Footer" className='link '>Services</a></li>
                 <li><a href="/connection" className='connection-btn'>Connexion</a></li>
-                           </ul>
+                <li><a href="/connection" className='signup-btn'>Inscription</a></li>
+            </ul>
         </nav>  
     </div>
   )

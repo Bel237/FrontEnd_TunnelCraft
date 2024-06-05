@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/TunnelCraft_white.png'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -17,45 +17,35 @@ export const Footer = () => {
 
                     <div className="copyright">
                         <FaRegCopyright />
-                        <p>2024 TravelWell. All rights reserved</p>
+                        <p>2024 TunnelCraft. All rights reserved</p>
                     </div>
                 </div>
                 <div className="About" id="Footer">
-                    <p className="text_about">A propos</p>
+                    <p className="text_about">About</p>
                     <div className="about-content">
-                    <p>Gagnez du temps et de l'argent.
-Voyagez en toute confiance. Vivez des expériences inoubliables                    </p>
-                    </div>
-
-                </div>
-
-                <div className="ContactUs" id="Footer">
-                    <p className="contactname">Contactez-nous</p>
-                    <div className="contact12">
-                        <FaWhatsapp/>
-                        <p>+2376000000</p>
-                    </div>
-                    <div className="contact12">
-                        <FaWhatsapp/>
-                        <p>+2370000000</p>
-                    </div>
-                    <p>ENSPY </p>
-                    <p>Yaoundé Cmr</p>
-                </div>
-
-                  <div className="About" id="Footer">
-                    <p className="text_about">Services</p>
-                    <div className="about-content">
-                    <p>                      
-                    Recherche de voyage<br/>
-                    Planification de voyage<br/>
-                    Creation d'itineraire<br/>
-                    Suivi en temps reel                 
+                    <p>Chez Tunnel Craft, 
+                    nous  sommes une équipe  dévouée 
+                    d'enthousiastes du développement web,
+                    engagés  à simplifier le processus
+                        d'intégration pour les développeurs
                     </p>
                     </div>
 
                 </div>
 
+                <div className="ContactUs" id="Footer">
+                    <p className="contactname">Contact Us</p>
+                    <div className="contact12">
+                        <FaWhatsapp/>
+                        <p>+237698271978</p>
+                    </div>
+                    <div className="contact12">
+                        <FaWhatsapp/>
+                        <p>+237676878446</p>
+                    </div>
+                    <p>ENSPY </p>
+                    <p>Yaoundé Cmr</p>
+                </div>
 
                 <div className="social_Media_Icons">
                 <FaXTwitter to="https://twitter.com/i/flow/login" />

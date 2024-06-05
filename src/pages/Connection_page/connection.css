@@ -4,7 +4,7 @@ img {
     margin: 24px 0 0 32px;
 }
 .main_body {
-   background-image: url(../../assets/images/ConnexionFont.png); 
+   background-image: url(../../assets/images/second11.jpg); 
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
@@ -116,7 +116,7 @@ img {
     border: none;
     color: white;
     margin: 15px 0;
-    background-color: #8404a0;
+    background-color: #3E1886;
     border-radius: 6px;
     padding: 12px 45px;
     cursor: pointer;
@@ -127,13 +127,13 @@ img {
 
 .connexion-btn:hover {
 
-    background-color: #8404a0;
+    background-color: #532d9a;
 }
 
 .inscription-btn {
 
-    border: 1px solid #8404a0;
-    color: #8404a0;
+    border: 1px solid #3E1886;
+    color: #3E1886;
     margin: 10px 0 24px 0;
     background-color: white;
     border-radius: 6px;
@@ -145,7 +145,7 @@ img {
 }
 .inscription-btn:hover {
 
-    background-color: #8404a0;
+    background-color: #3E1886;
     color: white;
     transition: all 0.1s ease-in;
 }
@@ -158,7 +158,7 @@ img {
     font-weight: bold;
     cursor: pointer;
     font-size: 13px;
-    color: #8404a0;
+    color: #3E1886;
 }
 
 .inscription-link:hover {
